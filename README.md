@@ -10,7 +10,7 @@
 
 ## Clone the repository
 You can clone this app using the following command: <br/>
-<ul><li>git clone https://github.com/OMKAR-KALEPU/todoApp.git</li></ul>
+<ul><li>git clone https://github.com/OMKAR-KALEPU/todo_app.git</li></ul>
 
 ## Start the todo-app
 You can start the todo-app by the following command: <br/>
