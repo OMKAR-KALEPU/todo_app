@@ -8,9 +8,10 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb://localhost/todos", {
+mongoose.connect("mongodb://localhost:27017/todos", {
   keepAlive: true,
   useNewUrlParser: true,
+  family: 4,
 });
 
 mongoose.connection.once("open", () => {
